@@ -8,9 +8,6 @@ import {
 import { Action } from "./ngrx-fake/ngrx";
 
 function reducer(state = 10, action: Action) {
-  // if (action.type === "INCREMENTAR") {
-  //   return (state += 1);
-  // }
   switch (action.type) {
     case "INCREMENTAR":
       return (state += 1);
