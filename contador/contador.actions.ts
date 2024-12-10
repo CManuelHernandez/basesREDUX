@@ -18,6 +18,6 @@ export const dividirAction: Action = {
   payload: 2,
 };
 
-export const resteAction: Action = {
+export const resetAction: Action = {
   type: "RESET",
 };
